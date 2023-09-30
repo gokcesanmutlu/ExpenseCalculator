@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: #3d3c3e;
+  font-family: "Inconsolata", "Times New Roman";
+}
+
+h1 {
+  color: #00dbf7;
+  text-shadow: 2px 2px 10px #00dbf7;
+  font-size: 2rem;
+  letter-spacing: 2.5px;
+}
+
+h3 {
+  display: inline-block;
+  font-size: 1.56rem;
+}
+
+.container {
+  background-color: #fff;
+  width: 45vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px 30px;
+  box-shadow: 0px 0px 15px #00dbf7;
+}
+
+.greet {
+  font-size: 1.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.greet-input {
+  border: none;
+  font-family: "inconsolata", "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+form {
+  font-family: "Montserrat";
+}
+
+.double {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 10px 0 30px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-check-field {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  padding: 9px 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(146, 145, 145);
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: #fff;
+  padding: 10px 40px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+button:hover {
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.506);
+  scale: 0.96;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+  padding: 10px;
+  height: 100%;
+}
+
+.expense {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 10px;
+/* https://getcssscan.com/css-box-shadow-examples */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, 
+  rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.expense #title{
+  font-family: 'Montserrat' ;
+}
+
+.expense #price{
+  color:red;
+}
+
+.expense img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+/* Area of Sum */
+.sum {
+  background-color: rgba(0,0, 78);
+  color: #fff;
+  padding: 10px 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#price-info {
+  color: yellow;
+}
+
+/* For Paid Item */
+.paid {
+  opacity: 0.6;
+}
+
+.paid #title{
+  text-decoration: line-through;
+}
+
+.paid #price{
+  color: green;
+}
+
+select {
+  width: 30%;
+  margin:0 auto;
+  padding:10px;}
+
+  
+@media screen and (max-width: 768px) {
+  h1 {
+    display: none;
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    padding: 3rem;
+  }
+}

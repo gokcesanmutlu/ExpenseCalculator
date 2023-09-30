@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpendingCalculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Head -->
+  <h1>Spending Calculator</h1>
+
+  <!-- Greeting Text -->
+  <div class="container">
+    <h3 class="greet">
+      <span>Welcome,</span>
+      <input id="user-input" class="greet-input" type="text" placeholder=" enter your name..." />
+    </h3>
+
+    <!-- Form Area -->
+    <form action="">
+      <!-- Form-Top -->
+      <div class="double">
+        <div class="form-field">
+          <label for="title-inp">Spending:</label>
+          <input type="text" id="title-inp" />
+        </div>
+        <div class="form-field">
+          <label for="price-inp">Price:</label>
+          <input type="number" id="price-inp" />
+        </div>
+      </div>
+      <!-- Form-bottom -->
+      <div class="double">
+        <div class="form-check-field">
+          <input type="checkbox" id="checked" />
+          <label for="checked"> Paid</label>
+        </div>
+
+        <button id="add-btn">Add</button>
+      </div>
+    </form>
+
+    <!-- Total Spending -->
+    <div class="sum">
+      Total Spending <span id="price-info">0</span> &#8378;
+    </div>
+
+    <!-- Select -->
+    <select>
+      <option value="all">All</option>
+      <option value="paid">Paid</option>
+      <option value="not-paid">Unpaid</option>
+    </select>
+
+    <!-- Spending List -->
+    <div id="list"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
