@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
   background-color: #3d3c3e;
   font-family: "Inconsolata", "Times New Roman";
 }
@@ -65,7 +65,8 @@ form {
   justify-content: space-between;
   align-items: center;
   gap: 1.5rem;
-  margin: 10px 0 30px;
+  margin-top: 20px;
+
 }
 
 .form-field {
@@ -104,7 +105,7 @@ button:hover {
 #list {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
   margin-top: 40px;
   padding: 10px;
   height: 100%;
@@ -139,7 +140,7 @@ button:hover {
 .sum {
   background-color: rgba(0,0, 78);
   color: #fff;
-  padding: 10px 30px;
+  padding: 10px;
   text-align: center;
   border-radius: 10px;
 }
