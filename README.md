@@ -43,9 +43,9 @@
     <li>CSS</li>
     <li>JAVASCRIPT</li>
   </ul>
-<p>You can reach to Website, when you are click <a href="">HERE</a>.</p>
+<p>You can reach to Website, when you are click <a href="https://expensecalculatorrr.netlify.app/">HERE</a>.</p>
 
 </body>
 </html>
 
-Screenshot ![ExpenseCalculator](.gif)
+Screenshot ![ExpenseCalculator](expense.gif)
