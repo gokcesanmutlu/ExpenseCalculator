@@ -33,7 +33,7 @@ h3 {
 .container {
   background-color: #fff;
   width: 45vw;
-  height: 70vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   gap: 20px;
