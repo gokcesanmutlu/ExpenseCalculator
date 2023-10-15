@@ -36,7 +36,7 @@
 </head>
 <body>
     
-  <p>Coded as a expense calculator.<p>
+  <p>Coded as a expense calculator. Calculator can also use small screen.<p>
 <h2 id="built-with">Built With</h2>
   <ul>
     <li>HTML</li>
